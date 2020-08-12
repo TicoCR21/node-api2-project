@@ -2,7 +2,6 @@ const db = require( "../data/db" );
 const express = require( "express" );
 const router = express.Router();
 
-
 /* =========== POST =========== */
 
 router.post( "/", ( req, res ) =>
